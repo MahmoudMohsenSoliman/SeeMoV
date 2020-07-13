@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <entry_points version="2.0">
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie CREATOR" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Review CREATOR" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Trailer CREATOR" />
+      <entry_point TYPE="method" FQNAME="com.mahmoud.movieapp.Models.Movie$1 com.mahmoud.movieapp.Models.Movie createFromParcel(android.os.Parcel in)" />
+      <entry_point TYPE="method" FQNAME="com.mahmoud.movieapp.Models.Review$1 com.mahmoud.movieapp.Models.Review createFromParcel(android.os.Parcel in)" />
+      <entry_point TYPE="method" FQNAME="com.mahmoud.movieapp.Models.Trailer$1 com.mahmoud.movieapp.Models.Trailer createFromParcel(android.os.Parcel in)" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie mDescription" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie mId" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie mPosterPath" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie mReleaseDate" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Review mReviewDescription" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Review mReviewerName" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie mReviews" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie mTitle" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Trailer mTrailerPath" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie mTrailers" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Trailer mTrailerTitle" />
+      <entry_point TYPE="field" FQNAME="com.mahmoud.movieapp.Models.Movie mVoteAverage" />
+      <entry_point TYPE="method" FQNAME="com.mahmoud.movieapp.Models.Movie$1 com.mahmoud.movieapp.Models.Movie[] newArray(int size)" />
+      <entry_point TYPE="method" FQNAME="com.mahmoud.movieapp.Models.Review$1 com.mahmoud.movieapp.Models.Review[] newArray(int size)" />
+      <entry_point TYPE="method" FQNAME="com.mahmoud.movieapp.Models.Trailer$1 com.mahmoud.movieapp.Models.Trailer[] newArray(int size)" />
+    </entry_points>
+    <pattern value="com.mahmoud.movieapp.ExampleUnitTest" method="addition_isCorrect" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailActivity" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment" />
+    <pattern value="com.mahmoud.movieapp.ExampleInstrumentedTest" />
+    <pattern value="com.mahmoud.movieapp.ExampleUnitTest" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MainActivity" />
+    <pattern value="com.mahmoud.movieapp.Settings.SettingsActivity" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" />
+    <pattern value="com.mahmoud.movieapp.Utilities.MovieDBJsonUtils" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.MoviesResponse" />
+    <pattern value="com.mahmoud.movieapp.Settings.SettingsFragment" method="onSharedPreferenceChanged" />
+    <pattern value="com.mahmoud.movieapp.Models.Review" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.ReviewResponse" />
+    <pattern value="com.mahmoud.movieapp.Settings.SettingsFragment" />
+    <pattern value="com.mahmoud.movieapp.Models.Trailer" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.TrailerResponse" />
+    <pattern value="com.mahmoud.movieapp.ExampleInstrumentedTest" method="useAppContext" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment.DeleteFromDatabaseTask" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="describeContents" />
+    <pattern value="com.mahmoud.movieapp.Models.Review" method="describeContents" />
+    <pattern value="com.mahmoud.movieapp.Models.Trailer" method="describeContents" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MovieAdapter" method="getItemCount" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.TrailerAdapter" method="getItemCount" />
+    <pattern value="com.mahmoud.movieapp.Utilities.MovieDBJsonUtils" method="getMoviesDataJson" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment.InsertInDatabaseTask" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieDatabase" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="Movie" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MovieAdapter" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MovieAdapter.MovieAdapterViewHolder" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MovieAdapter.MovieAdapterViewHolder" method="MovieAdapterViewHolder" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieDao" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieRepository" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieRepository" method="MovieRepository" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.MoviesResponse" method="MoviesResponse" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieViewModel" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieViewModel" method="MovieViewModel" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MovieAdapter" method="onBindViewHolder" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.TrailerAdapter" method="onBindViewHolder" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MainActivity" method="onClick" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MovieAdapter.MovieAdapterViewHolder" method="onClick" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.TrailerAdapter.TrailerHolder" method="onClick" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailActivity" method="onCreate" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment" method="onCreate" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MainActivity" method="onCreate" />
+    <pattern value="com.mahmoud.movieapp.Settings.SettingsActivity" method="onCreate" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MainActivity" method="onCreateOptionsMenu" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment" method="onCreateOptionsMenu" />
+    <pattern value="com.mahmoud.movieapp.Settings.SettingsFragment" method="onCreatePreferences" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment" method="onCreateView" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MovieAdapter" method="onCreateViewHolder" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.TrailerAdapter" method="onCreateViewHolder" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment" method="onListItemClick" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MainActivity" method="onOptionsItemSelected" />
+    <pattern value="com.mahmoud.movieapp.Settings.SettingsFragment" method="onPause" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MainActivity" method="onRestoreInstanceState" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MainActivity" method="onResume" />
+    <pattern value="com.mahmoud.movieapp.Settings.SettingsFragment" method="onResume" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MainActivity" method="onSaveInstanceState" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment" method="populateViews" />
+    <pattern value="com.mahmoud.movieapp.Models.Review" method="Review" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.ReviewAdapter" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.ReviewAdapter" method="ReviewAdapter" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.ReviewAdapter.ReviewHolder" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.ReviewAdapter.ReviewHolder" method="ReviewHolder" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.ReviewResponse" method="ReviewResponse" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.MoviesResponse" method="setMovies" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.ReviewResponse" method="setReviewsOfMovie" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.TrailerResponse" method="setTrailers" />
+    <pattern value="com.mahmoud.movieapp.Models.Trailer" method="Trailer" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.TrailerAdapter" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.TrailerAdapter.TrailerHolder" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.TrailerAdapter.TrailerHolder" method="TrailerHolder" />
+    <pattern value="com.mahmoud.movieapp.Retrofit.TrailerResponse" method="TrailerResponse" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="writeToParcel" />
+    <pattern value="com.mahmoud.movieapp.Models.Review" method="writeToParcel" />
+    <pattern value="com.mahmoud.movieapp.Models.Trailer" method="writeToParcel" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment.InsertInDatabaseTask" method="doInBackground" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.DetailFragment.DeleteFromDatabaseTask" method="doInBackground" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieDao" method="getAllMovies" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.ReviewAdapter" method="getItemCount" />
+    <pattern value="com.mahmoud.movieapp.MainActivity.MovieAdapter" method="MovieAdapter" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.ReviewAdapter" method="onBindViewHolder" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.ReviewAdapter" method="onCreateViewHolder" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieDao" method="searchMovie" />
+    <pattern value="com.mahmoud.movieapp.DetailActivity.Adapters.TrailerAdapter" method="TrailerAdapter" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieDao" method="delete" />
+    <pattern value="com.mahmoud.movieapp.Data.MovieDao" method="insert" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="getDescription" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="getId" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="getPosterPath" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="getReleaseDate" />
+    <pattern value="com.mahmoud.movieapp.Models.Review" method="getReviewDescription" />
+    <pattern value="com.mahmoud.movieapp.Models.Review" method="getReviewerName" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="getReviews" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="getTitle" />
+    <pattern value="com.mahmoud.movieapp.Models.Trailer" method="getTrailerPath" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="getTrailers" />
+    <pattern value="com.mahmoud.movieapp.Models.Trailer" method="getTrailerTitle" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="getVoteAverage" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="setDescription" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="setId" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="setPosterPath" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="setReleaseDate" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="setReviews" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="setTitle" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="setTrailers" />
+    <pattern value="com.mahmoud.movieapp.Models.Movie" method="setVoteAverage" />
+  </component>
+  <component name="NullableNotNullManager">
+    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+    <option name="myDefaultNotNull" value="androidx.annotation.NonNull" />
+    <option name="myNullables">
+      <value>
+        <list size="10">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+          <item index="2" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+          <item index="3" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+          <item index="4" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+          <item index="6" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+          <item index="9" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+        </list>
+      </value>
+    </option>
+    <option name="myNotNulls">
+      <value>
+        <list size="9">
+          <item index="0" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+          <item index="1" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+          <item index="2" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+          <item index="3" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+          <item index="6" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+          <item index="7" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+          <item index="8" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+        </list>
+      </value>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

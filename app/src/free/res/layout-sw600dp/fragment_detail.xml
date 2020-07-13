@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_detail_page"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailActivity.DetailActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_movie_title"
+            android:textSize="36sp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:padding="32dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="4dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/detail_movie_poster"
+                android:scaleType="center"
+                android:contentDescription="@string/content_desc_img" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:padding="4dp"
+
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/detail_movie_release_date"
+                    android:textSize="22sp"
+
+                    />
+
+
+                <RatingBar
+                    android:id="@+id/detail_movie_vote_average"
+                    style="@style/Widget.AppCompat.RatingBar.Indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:isIndicator="true"
+                    android:numStars="4"
+                    android:paddingBottom="8dp"
+                    />
+
+                <com.sackcentury.shinebuttonlib.ShineButton
+                    android:id="@+id/shine_button"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="10dp"
+                    android:src="@android:color/darker_gray"
+                    android:focusable="true"
+                    app:allow_random_color="true"
+                    app:big_shine_color="#FDD835"
+                    app:btn_color="@android:color/darker_gray"
+                    app:btn_fill_color="#F44336"
+                    app:click_animation_duration="200"
+                    app:enable_flashing="true"
+                    app:shine_animation_duration="1500"
+                    app:shine_count="15"
+                    app:shine_turn_angle="20"
+                    app:siShape="@raw/heart"
+                    app:small_shine_color="#CC9999"
+
+                    app:small_shine_offset_angle="20" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detail_plot_synopsis"
+            android:padding="16dp"
+            style="@style/TextAppearance.AppCompat.Small"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingBottom="4dp"
+            android:id="@+id/trailer_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:paddingBottom="4dp"
+            android:id="@+id/review_recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    
+</ScrollView>

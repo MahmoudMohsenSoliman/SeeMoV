@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">SeeMoV</string>
+    <string name="error_message">An error has occurred. Check your internet connection !</string>
+    <string name="settings">Settings</string>
+    <string name="analytics_current_screen">Show Movies</string>
+    <string name="pref_sort_key">Sort Type</string>
+    <string name="pref_sort_title">Sort by</string>
+    <string name="pref_genre_key">genre</string>
+    <string name="pref_genre_title">Genre</string>
+
+    <string name="popular_item_entries">Most popular</string>
+    <string name="top_rated_item_entries">Highest rated</string>
+    <string name="upcoming_item_entries">Upcoming</string>
+    <string name="now_playing_item_entries">Now playing</string>
+    <string name="favorites_entries">Favorites</string>
+
+    <string name="popular_item_values">popular</string>
+    <string name="top_rated_item_values">top_rated</string>
+    <string name="upcoming_item_values">upcoming</string>
+    <string name="now_playing_item_values">now_playing</string>
+    <string name="favorites_item_values">favorites</string>
+
+    <string-array name="pref_sort_entries">
+
+        <item>@string/popular_item_entries</item>
+        <item>@string/top_rated_item_entries</item>
+        <item>@string/upcoming_item_entries</item>
+        <item>@string/now_playing_item_entries</item>
+        <item>@string/pref_genre_title</item>
+        <item>@string/favorites_entries</item>
+    </string-array>
+
+    <string-array name="pref_sort_values">
+        <item>@string/popular_item_values</item>
+        <item>@string/top_rated_item_values</item>
+        <item>@string/upcoming_item_values</item>
+        <item>@string/now_playing_item_values</item>
+        <item>@string/pref_genre_key</item>
+        <item>@string/favorites_item_values</item>
+    </string-array>
+
+    <string-array name="pref_genre_sort_values">
+        <item>@string/genre_by_popularity</item>
+        <item>@string/genre_by_rating</item>
+    </string-array>
+
+    <string-array name="pref_genre_sort_entries">
+        <item>@string/popular_item_entries</item>
+        <item>Most votes</item>
+    </string-array>
+
+    <string-array name="pref_genre_types_entries">
+        <item>Action</item>
+        <item>Adventure</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Horror</item>
+        <item>Romance</item>
+        <item>Sci-Fi</item>
+    </string-array>
+
+    <string-array name="pref_genre_types_values">
+        <item>28</item>
+        <item>12</item>
+        <item>16</item>
+        <item>35</item>
+        <item>18</item>
+        <item>14</item>
+        <item>27</item>
+        <item>10749</item>
+        <item>878</item>
+    </string-array>
+    <string name="genre_by_popularity">popularity.desc</string>
+    <string name="genre_by_rating">vote_count.desc</string>
+    <string name="content_desc_img">Movie Poster</string>
+
+
+    <string name="share">Share</string>
+    <string name="genre_key">genre_key</string>
+    <string name="sort_key">sort_key</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+</resources>

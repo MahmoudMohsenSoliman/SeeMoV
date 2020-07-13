@@ -1,0 +1,80 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+android {
+
+    signingConfigs {
+        config {
+            keyAlias KEY_ALIAS
+            keyPassword KEY_PASSWORD
+            storeFile file('keystore.jks')
+            storePassword KEY_PASSWORD
+        }
+    }
+
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId 'com.mahmoud.seemov'
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField 'String', "ApiKey", MOVIE_DATABASE_API_KEY
+    }
+    buildTypes {
+
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+
+    }
+    compileOptions {
+        targetCompatibility = '1.8'
+        sourceCompatibility = '1.8'
+
+        flavorDimensions  "standard"
+        productFlavors{
+            free{
+                'com.mahmoud.seemov.free'
+                resValue("string","APP_ID",admobAppId)
+                resValue("string","BANNER_APP_ID",bannerAdAppId)
+            }
+            paid{'com.mahmoud.seemov.paid'}
+        }
+    }
+    buildToolsVersion = '28.0.3'
+
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.preference:preference:1.1.0'
+    implementation 'com.jakewharton:butterknife:10.1.0'
+    implementation 'com.sackcentury:shinebutton:0.2.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+    implementation 'com.ms-square:expandableTextView:0.1.4'
+    implementation "androidx.room:room-runtime:2.1.0"
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation 'com.android.support:support-v4:28.0.3'
+    implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    freeImplementation 'com.google.android.gms:play-services-ads:18.2.0'
+    annotationProcessor "androidx.room:room-compiler:2.1.0"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:2.1.0"
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-intents:3.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.2.0'
+}

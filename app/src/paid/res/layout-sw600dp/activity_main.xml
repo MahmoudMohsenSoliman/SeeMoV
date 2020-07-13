@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_layout"
+    tools:context=".MainActivity.MainActivity">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:weightSum="3"
+       android:orientation="horizontal"
+       android:baselineAligned="false">
+
+      <FrameLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="1"
+          android:id="@+id/swipelayout"
+          tools:context=".MainActivity.MainActivity">
+
+         <androidx.recyclerview.widget.RecyclerView
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:id="@+id/rv_movie_posters"
+
+             >
+
+         </androidx.recyclerview.widget.RecyclerView>
+
+         <TextView
+             android:id="@+id/tv_error_message"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textSize="16sp"
+             android:text="@string/error_message"
+             android:layout_gravity="center"
+             android:visibility="invisible"
+             android:padding="16dp"
+             />
+
+         <ProgressBar
+             android:layout_width="42dp"
+             android:layout_height="42dp"
+             android:id="@+id/pb_loading_rcl"
+             android:visibility="invisible"
+             android:indeterminate="true"
+             android:layout_gravity="center"
+             style="@style/Widget.AppCompat.ProgressBar"
+             />
+      </FrameLayout>
+      <FrameLayout
+          android:layout_width="0dp"
+          android:layout_height="match_parent"
+          android:layout_weight="2"
+          android:id="@id/fragment_detail_page"
+          tools:ignore="InconsistentLayout" />
+   </LinearLayout>
+
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
